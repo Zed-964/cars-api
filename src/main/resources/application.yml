@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: date-api
+
+  datasource:
+    url: jdbc:postgresql://0.0.0.0:5432/mydatabase
+    username: myuser
+    password: secret
+    driver-class-name: org.postgresql.Driver
